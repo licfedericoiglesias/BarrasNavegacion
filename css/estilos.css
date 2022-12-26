@@ -11,8 +11,7 @@
 body{
     background-color:rgb(250, 244, 244);
 }
-
-header{
+section{
     height: 70px;
     display: flex;
     background-color:rgba(255,255,255,0.85) ;
@@ -20,8 +19,12 @@ header{
     /*justify-content: space-around;*/
     /*position: fixed;*/
     width: 90%;
-    margin: 20px 70px;
-    }
+    margin: 0px 70px 0 70px;
+}
+
+.seccion1{
+    margin-top: 40px;
+}
 p{
     font-size: 35px;
     margin-left: 100px;
@@ -36,8 +39,7 @@ a{
     /*text-transform: uppercase;*/
     color:  black; 
     font-size: 17px;
-    
-    
+      
     }
 
 a:hover{
@@ -79,6 +81,11 @@ img.foto{
     vertical-align: 2.4em;
 }
 
+/*Inicion particularidades seccion 2*/
+.seccion2{
+    margin-top: 40px;
+}
+
 .search{
     margin-left: 5px;
     
@@ -96,7 +103,10 @@ input{
 .menu2{
     margin-left: 360px;
 }
-
+/*Inicion particularidades seccion 3*/
+.seccion3{
+    margin-top: 20px;
+}
 input.search2{
     background-color: transparent;
     padding: 8px 20px;
@@ -105,3 +115,58 @@ input.search2{
     margin-right: 15px;
     margin-left: 400px;
 }
+
+/*Inicio Estilos especificos barra 4*/
+.nav4{
+    margin-left: 250px;
+}
+
+.menu4{
+    margin-left: 250px;
+
+}
+.boton1{
+    padding: 8px 35px;
+    background: none;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 1.8;
+    cursor: pointer;
+
+}
+.boton2{
+    padding: 8px 35px;
+    background: blue;
+    border: none;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: 1.8;
+    cursor: pointer;
+    color: white;
+    
+}
+
+button:hover{
+    transition: 1s all;
+    color: red;
+    cursor: pointer;
+    /*no me toma el cambio de tamano!!!!!*/
+    transform: scale(1.5);
+}
+
+/*Inicio Estilos especificos quinta barra */
+.seccion5{
+    margin-top: 60px;
+}
+
+input.search5{
+    background-color: transparent;
+    padding: 8px 100px;
+    border-radius: 5px;
+    border-color: rgb(147, 146, 146);
+    border-style: solid ;
+    margin-right: 200px;
+    margin-left: 320px;
+}
+
+
