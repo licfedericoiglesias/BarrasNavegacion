@@ -1,0 +1,107 @@
+/*Limpieza del formato por default*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 1.8;
+    
+    }
+/*fomarto de la parte superior - Header*/
+
+body{
+    background-color:rgb(250, 244, 244);
+}
+
+header{
+    height: 70px;
+    display: flex;
+    background-color:rgba(255,255,255,0.85) ;
+    align-items: center;
+    /*justify-content: space-around;*/
+    /*position: fixed;*/
+    width: 90%;
+    margin: 20px 70px;
+    }
+p{
+    font-size: 35px;
+    margin-left: 100px;
+    }
+
+nav{
+    flex-wrap: wrap;
+    }
+a{
+    text-decoration: none;
+    margin: 5px;
+    /*text-transform: uppercase;*/
+    color:  black; 
+    font-size: 17px;
+    
+    
+    }
+
+a:hover{
+    transition: 1s all;
+    color: red;
+    cursor: pointer;
+    /*no me toma el cambio de tamano!!!!!*/
+    transform: scale(1.5);
+    }
+
+.menu1{
+    margin-left: 620px;
+}
+
+.iconos{
+    font-size: 18px;
+                         
+}
+.iconopuntonaranja{
+    color: orange;
+    font-size: 8px;
+    margin-left: -15px;
+    vertical-align: 2.4em;
+    }
+
+img.foto{
+    border-radius: 180px;
+    max-height: 40px;
+    max-width: 40px ;
+    margin-left: 35px;
+    margin-top: 35px;
+        
+}
+
+.iconopuntorojo{
+    color: red;
+    font-size: 8px;
+    margin-left: -15px;
+    vertical-align: 2.4em;
+}
+
+.search{
+    margin-left: 5px;
+    
+}
+
+input{
+    background-color: rgb(241, 241, 241);
+    padding: 8px 40px;
+    border-radius: 8px;
+    border-color: transparent;
+    margin-right: 15px;
+
+}
+
+.menu2{
+    margin-left: 360px;
+}
+
+input.search2{
+    background-color: transparent;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border-color: rgb(241, 241, 241);
+    margin-right: 15px;
+    margin-left: 400px;
+}
